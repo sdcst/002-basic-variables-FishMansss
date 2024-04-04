@@ -35,5 +35,5 @@ If we want to combine variables with literal text output, you need to use format
 Note the inclusion of the f in front of the quotation marks.  We can then just include the 
 variable in the {} where we would like to show the value of that variable
 '''
-x = 2.5
-print(f"The value of x is {x}")
+x = "Hello world"
+print(f"and then he said \'{x}\'")
